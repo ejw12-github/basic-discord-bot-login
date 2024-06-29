@@ -110,4 +110,4 @@ async def on_message(message):
     elif target_user_id and message.author.id == target_user_id:
         print(f"Message from {message.author}: {message.content}")
 
-bot.run(TOKEN)
+bot.run(token)

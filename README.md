@@ -1,1 +1,1 @@
- # Hi, thanks for using Basic Discord Bot Login!
+ # Hi, welcome to the Basic Discord Bot Login Github page!

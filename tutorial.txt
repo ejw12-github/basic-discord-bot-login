@@ -1,0 +1,46 @@
+Tutorial
+
+|---------------------------------------------------------------------------------------|
+
+1. Setting Up the Bot
+
+Go to "https://discord.com/developers/applications", and click Create New Application.
+Choose a name and create the application.
+On the side, select the Bot Tab.
+Customize the bot's name and profile picture.
+Enable Message Content, Server Members, and Presence Intents.
+
+2. 0Auth2 Scopes
+
+Go to the 0Auth2 tab. For a redirect uri, enter:
+"https://discordapp.com/oauth2/authorize?&client_id=[INSERT CLIENT ID]&scope=bot"
+with your bot's client id.
+Select the scopes you need. For a bot, select the "Bot" scope
+Select "Manage Roles", "Read Messages / View Channels", "Send Messages", "Send Messages in Threads", "Send TTS Messages", "Read Message History", and "Add Reactions"
+
+3. Adding the Bot to a Server
+
+Copy and paste the Generated URL at the bottom into your browser to add a bot to your requested server.
+Congrats, your bot is now in your server!
+
+4. Installing Python & Discord.py
+
+Install a Python Editor (not an online one).
+Then, go to your terminal and type "pip install discord.py"
+
+5. Running the Code
+
+Open the Python Editor, and enter the code in "basic_discord_bot_login.py"
+Go back to the Developer Portal, and copy the token.
+NEVER share your bot's token. Also changing it will cause the program to break.
+Run the Python Program, and follow the steps
+And you're done!
+
+6. Troubleshooting
+
+If you're having problems, ensure that all the steps are followed, the bot has the correct permissions, and that
+discord.py and Python are up to date.
+
+|---------------------------------------------------------------------------------------|
+
+** IF YOU NEED HELP, DM @ejw12 ON DISCORD **
